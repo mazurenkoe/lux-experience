@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
 
     env:
-      BASE_URL: http://localhost:4000/fashionhub/
+      BASE_URL: http://localhost:4000
 
     steps:
       - name: Checkout repo

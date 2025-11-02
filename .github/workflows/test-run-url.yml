@@ -8,7 +8,7 @@ on:
         type: choice
         options:
           - https://pocketaces2.github.io
-          - https://staging-env/fashionhub
+          - https://staging-env
         default: https://pocketaces2.github.io
         required: true
 

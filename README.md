@@ -35,3 +35,9 @@ Run *login* test in *chromium* in *UI* mode: `npx playwright test tests/login.sp
 ### How to see test report
 
 Run command in VS-code terminal: `npx playwright show-report`
+
+### How to run test remotely by GitHub actions
+
+1. Go to https://github.com/mazurenkoe/lux-experience/actions
+2. Select `Playwright Tests (Run by url)` workflow to run autotests by url or select `Playwright Tests (Run by Docker file)` to run tests in Docker container.
+3. Click 'Run workflow' button
